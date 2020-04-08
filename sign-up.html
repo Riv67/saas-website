@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>SaaS-website</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header role="banner">
+    <div class=" header grid grid-middle gutter">
+      <h1 class="unit xs-1 s-1 m-1-3 l-1-3 pad-t-1-2 pad-b-1-2">
+        <span class="giga text-left">Printed</span>
+      </h1>
+      <nav class="unit xs-1 s-1 m-2-3 l-2-3 pad-t-1-2 pad-b-1-2" role="navigation" tabindex="0">
+        <ul class="list-group-inline mega push-0 text-right">
+          <li><a class="gutter-1-4" href="#"><span>products</span></a></li>
+          <li><a class="gutter-1-4" href="#"><span>plans</span></a></li>
+          <li><a class="gutter-1-4" href="#"><span>sign in</span></a></li>
+          <li><a class="gutter-1-4" href="#"><span>sign up</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main" tabindex="0">
+
+    <section class="contact pad-t-2 pad-b-2">
+      <div class="max-length">
+        <h2 class="caption tera">sign up to get started</h2>
+
+        <form class="push-0 island" method="POST" action="https://formspree.io/bosc0022@algonquinlive.com">
+          <div class="push">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="push">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="me@me.com" name="email" required>
+          </div>
+          <div class="push">
+            <label for="subject">Plan</label>
+            <select id="subject" name="_subject">
+              <option>Basic</option>
+              <option>Plus</option>
+              <option>Pro</option>
+            </select>
+          </div>
+          <div>
+            <button class="btn btn-light mega" type="submit">Sign up</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <div class=" footer mirco text-left gutter-2 island">
+      <ul class="push-0 list-group">
+        <li> About</li>
+        <li>Terms and Conditions</li>
+        <li>© Printed 2020</li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,3 +1,27 @@
 html {
   font-family: 'Quicksand', sans-serif;
 }
+
+.header,
+.footer {
+  background-color: #bcec63;
+}
+ .btn {
+  background-color: #0c56c6;
+  border-color: #0c56c6;
+  color: #fff;
+ }
+
+ .btn:hover {
+  background-color: #fff;
+  border-color: #0c56c6;
+  color: #0c56c6;
+ }
+
+.caption {
+  color: #0c56c6;
+}
+
+form {
+  background-color: #f0f0f0;
+}
