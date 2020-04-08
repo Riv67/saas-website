@@ -27,41 +27,41 @@
       </nav>
     </div>
   </header>
-  
-  <main>
 
-    <section tabindex="0" class="prices pad-t pad-b" id="pricing">
-      <div class="wrapper gutter-1-2">
-        <h2 class="push-0 color-brand-dark caption tera">Pricing</h2>
+  <main role="main" tabindex="0">
 
-        <table>
-          <caption class="not-italic">Prices for basic, plus, and pro plans.</caption>
-          <thead>
-            <tr>
-              <th scope="col"></th>
-              <th scope="col">basic</th>
-              <th scope="col">plus</th>
-              <th scope="col">pro</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">per month</th>
-              <td>$24.99</td>
-              <td>$39.99</td>
-              <td>$54.99</td>
-            </tr>
-            <tr>
-              <th scope="row">per year</th>
-              <td>$199.99</td>
-              <td>$279.99</td>
-              <td>$339.99</td>
-            </tr>
-          </tbody>
-        </table>
+    <section class="contact pad-t-2 pad-b-2">
+      <div class="max-length pad-b">
+        <h2 class="caption tera">sign in to your account</h2>
+
+        <form class="push-0 island" method="POST" action="https://formspree.io/bosc0022@algonquinlive.com">
+          <div class="push">
+            <label for="name">User Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="push">
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" required>
+          </div>
+          <div>
+            <button class="btn btn-light mega" type="submit">Sign in</button>
+          </div>
+        </form>
       </div>
     </section>
 
   </main>
+
+  <footer role="contentinfo">
+    <div class=" footer micro text-left gutter-2 island">
+      <p class="mega push-0 pad-b-1-4 bold">Printed</p>
+      <ul class="push-0 list-group">
+        <li>About</li>
+        <li>Terms and Conditions</li>
+        <li>© Printed 2020</li>
+      </ul>
+    </div>
+  </footer>
+
 </body>
 </html>
