@@ -49,3 +49,21 @@ a {
 .green {
   color: #bcec63;
 }
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.card {
+  margin: 0;
+  position: relative;
+}
+
+.item {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  max-width: 15em;
+  color: #fff;
+}
