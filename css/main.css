@@ -34,3 +34,18 @@ a {
 .border {
   background-color: #f0f0f0;
 }
+
+.prices {
+  border: 6px solid;
+  border-color: #bcec63;
+  border-radius: 20px;
+}
+
+.footer {
+  border-top: 8px solid;
+  border-color: #f0f0f0;
+}
+
+.green {
+  color: #bcec63;
+}
