@@ -30,3 +30,7 @@ a {
   text-decoration: none;
   color: #000;
 }
+
+.border {
+  background-color: #f0f0f0;
+}
