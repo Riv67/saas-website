@@ -67,3 +67,7 @@ a {
   max-width: 15em;
   color: #fff;
 }
+
+.item:hover {
+  color: #0c56c6;
+}
