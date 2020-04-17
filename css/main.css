@@ -12,10 +12,18 @@ html {
   color: #fff;
  }
 
+ .btn a {
+ color: #fff;
+ }
+
  .btn:hover {
   background-color: #fff;
   border-color: #0c56c6;
   color: #0c56c6;
+ }
+
+ .btn a:hover {
+   color: #0c56c6;
  }
 
 .caption {
@@ -68,6 +76,7 @@ a {
   color: #fff;
 }
 
-.item:hover {
+.item:hover,
+.pages:hover {
   color: #0c56c6;
 }
