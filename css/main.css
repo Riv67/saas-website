@@ -81,3 +81,12 @@ a {
 .pages:hover {
   color: #0c56c6;
 }
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
